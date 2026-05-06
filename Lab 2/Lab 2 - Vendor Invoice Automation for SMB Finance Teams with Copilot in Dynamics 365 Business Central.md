@@ -95,6 +95,8 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
 1. Wait until the Copilot prepares the purchase document draft.
 
+   >**Note:** If the draft is taking longer to load, refresh the page.
+
 2. Once the draft is ready, click **Review** to examine the generated details.
 
    ![](./media/l2t6s2.png)
@@ -105,19 +107,21 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
 4. Allow Copilot to finalize the draft based on the reviewed information.
 
-5. Click **Finalize purchase draft** once the final version is available.
+      ![](./media/l2t7s2.png)
 
-   ![](./media/l2t7s2.png)
+      >**Note:** If the draft is taking longer to load, refresh the page.
 
-6. Review the finalized document and click **Post** to complete the transaction.
+6. Select **Documents (1)** from the tab and click on **Finalize Purchase Invoice (2)**.
+
+7. Review the finalized document and click **Post** to complete the transaction.
 
    ![](./media/l2t7s3.png)
 
-7. Confirm the posting by clicking **Yes**.
+8. Confirm the posting by clicking **Yes**.
 
    ![](./media/l2t7s4.png)
 
-8. Click **Yes** again to view the posted document.
+9. Click **Yes** again to view the posted document.
 
    ![](./media/l2t7s5.png)
 
@@ -131,19 +135,19 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
    ![](./media/l2t8s2.png)
 
-3. Navigate to the homage page, Press Alt + Q, enter **Purchase & Payable (1)** in the field, and select **Purchase & Payable setup (2)** option.
+3. Navigate to the homage page, Press Alt + Q, enter **Purchase & Payable (1)** in the field, and select **Purchases & Payables setup (2)** option.
 
    ![](./media/l2t8s3.png)
 
-4. Participant can see **IRS 1096 Form no.** series is not available in the setup. Click on the Back button at the top.
+4. Scroll down to the Number Series tab and you can see that **IRS 1096 Form no.** series is not available in the setup. Click on the Back button at the top.
 
    ![](./media/l2t8s4.png)
 
-5. Press **Alt + Q**, search for **Number Series**, and open the **Number Series** page to view how document numbers are generated.
+5. Press **Alt + Q**, search for **Number Series (1)**, and open the **No Series (2)** page to view how document numbers are generated.
 
    ![](./media/l2t8s5.png)
 
-6. From the **Number Series** page, click **Generate** to let Copilot suggest changes.
+6. From the **Number Series** page, click on the **Copilot icon (1)** and selct **Generate (2)** to let Copilot suggest changes.
 
    ![](./media/l2t9s1.png)
 
@@ -155,7 +159,7 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
    ![](./media/l2t9s3.png)
 
-9. Press Alt + Q and enter **Purchases & payable setup (1)**, then select **Purchases & payable setup (2)** option.
+9. Press Alt + Q and enter **Purchases & payables setup (1)**, then select **Purchases & payables setup (2)** option.
 
    ![](./media/l2t9s4.png)
 
@@ -195,7 +199,7 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
    ![](./media/l2t10s4.png)
 
-**Conclusion**
+## Conclusion
 
 By completing this lab, you have successfully configured the
 Payables Agent and used Copilot to automate the processing of vendor invoices received via email. They reviewed incoming documents, validated and adjusted purchase details, finalized and posted invoices, and explored how Copilot can assist in managing number series efficiently.
