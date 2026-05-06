@@ -193,6 +193,6 @@ In this exercise, you will interact with Copilot using natural language to retri
 
     ![](./media/e6s14.png)
 
-## Lab Completion
+## Conclusion
 
 You have successfully completed this lab. You now understand how Copilot can accelerate purchase order review, analysis, and data entry in Dynamics 365 Business Central, enabling faster and more informed business decisions.
