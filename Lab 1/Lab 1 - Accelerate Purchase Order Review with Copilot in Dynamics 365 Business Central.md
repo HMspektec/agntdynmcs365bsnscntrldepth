@@ -10,24 +10,31 @@ By completing this lab, you will gain hands-on experience with Copilot in real b
 
 In this exercise, you will activate a free trial environment for Dynamics 365 Business Central. This environment will be used for all subsequent exercises in this lab.
 
-1. Open your edge browser and navigate to <https://www.microsoft.com/en-us/dynamics-365/products/business-central> Microsoft Dynamics 365 Business Central product page.
+1. Open your edge browser and navigate to [Dynamics 365 Business Central](https://www.microsoft.com/en-us/dynamics-365/products/business-central).
 
-2. On the page, locate and click the **Try for free** button This will initiate the trial activation process.
+1. On the page, locate and click the **Try for free** button. This will initiate the trial activation process.
 
    ![](./media/image1.png)
 
-3. You will be navigated to login page, and click the **Sign in** button to proceed to authentication.
+1. You will be navigated to a new tab, scroll down and locate **Dynamics 365 Business Central** and select **Try for Free** again.
 
-    ![](./media/e1_s3.png)
+1. You will be navigated to login page, click on **Get started** to finalize the setup process.
 
-4. If required, enter the administrator password and click **Sign in** again to confirm your credentials.
+      ![](./media/image6.png)
 
-    ```
-    When prompted with optional setup steps, click Skip and go to Business Central to proceed directly to the application.
-    ```
-1. Click **Get started** again to finalize the setup process.
+      >**Note:** If you do not see the **Get Started** option immediately, follow the below steps:
 
-    ![](./media/image6.png)
+      1. Click on the **Sign in** button to proceed to authentication.
+
+          ![](./media/e1_s3.png)
+
+      1. If required, enter the administrator password and click on **Sign in** again to confirm your credentials.
+
+         >**Note:** If prompted with optional setup steps, click Skip and go to Business Central to proceed directly to the application.
+             
+     1. Click on **Get started** to finalize the setup process.
+
+        ![](./media/image6.png)
 
 1. If a survey page appears, select **Skip survey** to bypass it.
 
@@ -39,11 +46,11 @@ In this exercise, you will activate a free trial environment for Dynamics 365 Bu
 
 ## Exercise 2: Open the production environment
 
-1. Open the **Dynamics 365 Business Central** portal. From the top navigation bar, select **Companies(1)** and switch to **My Company(2)**.
+1. On the **Dynamics 365 Business Central** portal, select **Companies(1)** from the top navigation bar and **Switch(2)** to **My Company**.
  
    ![](./media/firstimage.png)
  
-1. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`)..
+1. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`).
  
    ![](./media/secondimage.png)
  
@@ -51,7 +58,7 @@ In this exercise, you will activate a free trial environment for Dynamics 365 Bu
  
    ![](./media/three.png)
 
-1. select the **Production environment** from the environment list.
+1. Select the **Production environment** from the environment list.
 
     ![](./media/e2s5.png)
 
@@ -67,7 +74,7 @@ In this exercise, you will activate a free trial environment for Dynamics 365 Bu
 
 In this exercise, you will verify that Copilot and agent capabilities are enabled in your Business Central environment. These capabilities allow Copilot to provide intelligent assistance throughout the application.
 
-1. From the Business Central home page, press **Alt + Q** on your keyboard to open the **Tell me what you want** search bar.
+1. From the Business Central home page, press **Alt + Q** on your keyboard to open the `Tell me what you want to do` search bar.
 
 2. In the search field, type **Copilot & agent capabilities (1)** and from the search results, select **Copilot & agent capabilities (2)**.
 
@@ -75,13 +82,13 @@ In this exercise, you will verify that Copilot and agent capabilities are enable
 
 3. Review the settings displayed on the page.
 
-4. In most trial environments, agent capabilities are enabled by default. You may review the available options to understand the scope of Copilot features. For the purpose of this lab **do not activate or deactivate any options**.
+4. In most trial environments, agent capabilities are enabled by default. You may review the available options to understand the scope of Copilot features. For the purpose of this lab, **do not activate or deactivate any options**.
 
     ![](./media/e3s5.png)
 
 5. Copilot and agent capabilities are confirmed to be active and available for use in subsequent exercises.
 
-6. Navigate to the business central home page, press the **Alt + Q** button on key board and enter Contoso Demo Tool in the field, then select the option **Contoso Demo Tool.**
+6. Navigate to the business central home page, press the **Alt + Q** button on your keyboard and enter **Contoso Demo Tool (1)** in the field and select **Contoso Demo Tool (2)**.
 
     ![](./media/e3s7.png)
 
