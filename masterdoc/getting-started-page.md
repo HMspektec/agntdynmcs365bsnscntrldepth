@@ -8,7 +8,7 @@ Welcome to your Dynamic 365 Business Central Workshop. Let's begin by making the
 
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
-![Access Your VM and Lab Guide](./media/gs3.png)
+![Access Your VM and Lab Guide](./media/gs4.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
