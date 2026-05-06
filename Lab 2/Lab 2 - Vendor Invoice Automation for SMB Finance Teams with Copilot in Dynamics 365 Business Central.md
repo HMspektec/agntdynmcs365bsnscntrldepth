@@ -113,6 +113,8 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
 6. Select **Documents (1)** from the tab and click on **Finalize Purchase Invoice (2)**.
 
+      ![](./media/ds7.png)
+
 7. Review the finalized document and click **Post** to complete the transaction.
 
    ![](./media/l2t7s3.png)
