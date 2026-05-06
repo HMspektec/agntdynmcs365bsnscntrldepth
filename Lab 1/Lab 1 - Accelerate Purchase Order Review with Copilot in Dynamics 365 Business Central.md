@@ -50,7 +50,7 @@ In this exercise, you will activate a free trial environment for Dynamics 365 Bu
 
 In this exercise, you will verify that Copilot and agent capabilities are enabled in your Business Central environment. These capabilities allow Copilot to provide intelligent assistance throughout the application.
 
-1. From the Business Central home page, press **Alt + Q** on your keyboard to open the `Tell me what you want to do` search bar.
+1. On the Business Central home page, press **Alt + Q** on your keyboard to open the `Tell me what you want to do` search bar.
 
 2. In the search field, type **Copilot & agent capabilities (1)** and from the search results, select **Copilot & agent capabilities (2)**.
 
