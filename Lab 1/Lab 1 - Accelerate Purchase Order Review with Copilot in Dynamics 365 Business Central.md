@@ -151,7 +151,7 @@ automatically filling in fields while creating a purchase order,reducing manual 
 
 6. Review the auto-generated values in the purchase order and click Keep all to accept and apply the suggested changes..
 
-    ![](./media/e5s11.png)
+    ![](./media/ds6.png)
 
 7. The purchase order fields are intelligently populated with Copilot assistance.
 
