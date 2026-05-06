@@ -8,11 +8,11 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
 1. Navigate to Business Central home page.
 
-2. Navigate to **Payables Agent (1)** from the top menu and click on **Activate** to enable the agent .
+2. Navigate to **Payables Agent (1)** from the top menu and click on **Activate** to enable the agent.
 
    ![](./media/l2t1s2.png)
 
-4. Turn On the **Active (1)** toggle, in the **Mailbox** section, click on the **horizontal ellipsis (⋯) (2)** to configure the receival of the invoices.
+4. Turn On the **Active (1)** toggle, in the **Mailbox** section and click on the **horizontal ellipsis (⋯) (2)** to configure the receival of the invoices.
 
    ![](./media/l2t1s3.png)
 
