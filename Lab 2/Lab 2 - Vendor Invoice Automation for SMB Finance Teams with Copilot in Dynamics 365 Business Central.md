@@ -1,6 +1,6 @@
 # Lab 2: Vendor Invoice Automation for SMB Finance Teams with Copilot in Dynamics 365 Business Central
 
-**Introduction**
+# Introduction
 
 In this lab, you will explore how Copilot enhances vendor invoice processing in Dynamics 365 Business Central for small and medium-sized finance teams. The lab walks through configuring the Payables Agent, setting up an email inbox for receiving vendor invoices, and using Copilot to automatically create, review, and post purchase documents. You will also gain hands-on experience reviewing invoice data, making necessary adjustments, and understanding how Copilot assists in reducing manual effort while maintaining control over financial transactions. By the end of this lab, you will have a clear understanding of how invoice automation works end to end within Business Central.
 
@@ -8,11 +8,11 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
 1. Navigate to Business Central home page.
 
-2. Navigate to **Payables Agent (1)** from the top menu and Click **Activate** to start enabling the agent .
+2. Navigate to **Payables Agent (1)** from the top menu and click on **Activate** to enable the agent .
 
    ![](./media/l2t1s2.png)
 
-4. Turn On the **Activate (1)** toggle and In the **Mailbox** section, click the **horizontal ellipsis (⋯) (2)** to configure how invoices will be received.
+4. Turn On the **Active (1)** toggle, in the **Mailbox** section, click on the **horizontal ellipsis (⋯) (2)** to configure the receival of the invoices.
 
    ![](./media/l2t1s3.png)
 
@@ -40,7 +40,7 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
    ![](./media/l2t1s9.png)
 
-8. In the **Document processing** section, ensure **Review email** is turned **On** so incoming emails can be reviewed before document creation.
+8. In the **Document processing** section, ensure **Review email** is turned **On** so that the incoming emails can be reviewed before document creation.
 
 9. Click **Update** to save the Payables Agent configuration.
 
@@ -58,9 +58,9 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
    ![](./media/l2t4s2.png)
 
-3. Create a new email and send it to the same admin tenant email address configured for the Payables Agent.
+3. Click on New Mail and add **<inject key="AzureAdUserEmail"></inject>** in the To address.
 
-4. Set the subject as **Invoice** and add the provided email content.
+4. Set the subject as **Invoice** and add the provided email content in the Body section.
 
     ```
     Dear Team,
@@ -71,13 +71,15 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
     Thank you for your support.
     ```
-5. Attach the **Fabrikam Invoice US D365F** file from the **C:\LabFiles\lab** file folder and send the email to initiate invoice processing.
+5. Attach the **Fabrikam Invoice US D365F** file from the **C:\LabFiles\lab file** folder and send the email to initiate invoice processing.
 
    ![](./media/l2t2s5.png)
 
 ## Task 3: Review the Incoming Invoice in Business Central
 
 1. Return to the **Business Central** portal once the email is sent.
+
+   >**Note:** Refresh the page if required.
 
 2. Notice that the **Payables Agent (1)** automatically detects the incoming email and creates an **e-Document (2)** request. Open the most recent request.
 
@@ -91,7 +93,7 @@ In this lab, you will explore how Copilot enhances vendor invoice processing in 
 
    ![](./media/l2t5s3.png)
 
-1. Wait while Copilot prepares the purchase document draft.
+1. Wait until the Copilot prepares the purchase document draft.
 
 2. Once the draft is ready, click **Review** to examine the generated details.
 
