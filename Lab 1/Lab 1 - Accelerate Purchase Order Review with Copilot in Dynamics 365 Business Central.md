@@ -1,6 +1,6 @@
 # Lab 1: Accelerate Purchase Order Review with Copilot in Dynamics 365 Business Central
 
-**Lab Objective**
+## Introduction
 
 This lab is designed to help you understand how Microsoft Copilot can be used within Dynamics 365 Business Central to improve efficiency in purchasing-related tasks. Throughout this lab, you will work in a Business Central trial environment and explore Copilot features such as data analysis, intelligent autofill, and conversational insights. The lab focuses specifically on accelerating the review and analysis of purchase orders using Copilot capabilities.
 
@@ -10,24 +10,33 @@ By completing this lab, you will gain hands-on experience with Copilot in real b
 
 In this exercise, you will activate a free trial environment for Dynamics 365 Business Central. This environment will be used for all subsequent exercises in this lab.
 
-1. Open your edge browser and navigate to <https://www.microsoft.com/en-us/dynamics-365/products/business-central> Microsoft Dynamics 365 Business Central product page.
+1. Open your edge browser and navigate to [Dynamics 365 Business Central](https://www.microsoft.com/en-us/dynamics-365/products/business-central).
 
-2. On the page, locate and click the **Try for free** button This will initiate the trial activation process.
+1. On the page, locate and click the **Try for free** button. This will initiate the trial activation process.
 
    ![](./media/image1.png)
 
-3. You will be navigated to login page, and click the **Sign in** button to proceed to authentication.
+      >**Note:** If you are navigated to a new tab, scroll down and locate **Dynamics 365 Business Central** and select **Try for Free** again.
 
-    ![](./media/e1_s3.png)
+   ![](./media/ds1.png)
 
-4. If required, enter the administrator password and click **Sign in** again to confirm your credentials.
+1. You will be navigated to login page, click on **Get started** to finalize the setup process.
 
-    ```
-    When prompted with optional setup steps, click Skip and go to Business Central to proceed directly to the application.
-    ```
-1. Click **Get started** again to finalize the setup process.
+      ![](./media/image6.png)
 
-    ![](./media/image6.png)
+      >**Note:** If you do not see the **Get Started** option immediately, follow the below steps:
+
+      1. Click on the **Sign in** button to proceed to authentication.
+
+          ![](./media/e1_s3.png)
+
+      1. If required, enter the administrator password and click on **Sign in** again to confirm your credentials.
+
+         >**Note:** If prompted with optional setup steps, click Skip and go to Business Central to proceed directly to the application.
+             
+     1. Click on **Get started** to finalize the setup process.
+
+        ![](./media/image6.png)
 
 1. If a survey page appears, select **Skip survey** to bypass it.
 
@@ -37,51 +46,25 @@ In this exercise, you will activate a free trial environment for Dynamics 365 Bu
 
     ![](./media/image8.png)
 
-## Exercise 2: Open the production environment
-
-1. Open the **Dynamics 365 Business Central** portal. From the top navigation bar, select **Companies(1)** and switch to **My Company(2)**.
- 
-   ![](./media/firstimage.png)
- 
-1. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`)..
- 
-   ![](./media/secondimage.png)
- 
-1. Append `/admin` to the end of the modified URL, as shown below, and then press **Enter**.
- 
-   ![](./media/three.png)
-
-1. select the **Production environment** from the environment list.
-
-    ![](./media/e2s5.png)
-
-1. Click the **URL** of the Production environment to open it.
-
-    ![](./media/e2s6.png)
-
-1. You are redirected to the Business Central Production home page.
-
-    ![](./media/e2s7.png)
-
-## Exercise 3: Verify Copilot and Agent Capabilities
+## Exercise 2: Verify Copilot and Agent Capabilities
 
 In this exercise, you will verify that Copilot and agent capabilities are enabled in your Business Central environment. These capabilities allow Copilot to provide intelligent assistance throughout the application.
 
-1. From the Business Central home page, press **Alt + Q** on your keyboard to open the **Tell me what you want** search bar.
+1. From the Business Central home page, press **Alt + Q** on your keyboard to open the `Tell me what you want to do` search bar.
 
 2. In the search field, type **Copilot & agent capabilities (1)** and from the search results, select **Copilot & agent capabilities (2)**.
 
-    ![](./media/e3s1.png)
+   ![](./media/ds4.png)
 
 3. Review the settings displayed on the page.
 
-4. In most trial environments, agent capabilities are enabled by default. You may review the available options to understand the scope of Copilot features. For the purpose of this lab **do not activate or deactivate any options**.
+4. In most trial environments, agent capabilities are enabled by default. You may review the available options to understand the scope of Copilot features. For the purpose of this lab, **do not activate or deactivate any options**.
 
-    ![](./media/e3s5.png)
+   ![](./media/ds5.png)
 
 5. Copilot and agent capabilities are confirmed to be active and available for use in subsequent exercises.
 
-6. Navigate to the business central home page, press the **Alt + Q** button on key board and enter Contoso Demo Tool in the field, then select the option **Contoso Demo Tool.**
+6. Navigate to the business central home page, press the **Alt + Q** button on your keyboard and enter **Contoso Demo Tool (1)** in the field and select **Contoso Demo Tool (2)**.
 
     ![](./media/e3s7.png)
 
@@ -93,7 +76,7 @@ In this exercise, you will verify that Copilot and agent capabilities are enable
 
     ![](./media/e3s9.png)
 
-## Exercise 4: Analyze Purchase Order Data Using Copilot
+## Exercise 3: Analyze Purchase Order Data Using Copilot
 
 In this exercise, you will use Copilot to analyze purchase order data directly from a list page. This demonstrates how Copilot can quickly generate insights without manual filtering or calculations.
 
@@ -115,7 +98,7 @@ In this exercise, you will use Copilot to analyze purchase order data directly f
 
     ![](./media/e4s8.png)
 
-6. At the bottom of the analysis window, locate the **Add more details** field and enter **Sort by amount (1)** and click **Execute (2)**.
+6. At the bottom of the analysis window, locate the **Add more details about the analysis** field and type **Sort by amount (1)** and click **Execute (2)**.
 
     ![](./media/e4s11.png)
 
@@ -127,7 +110,7 @@ In this exercise, you will use Copilot to analyze purchase order data directly f
 
     ![](./media/e4s5.png)
 
-9. Click the **prompt guide icon (1)** then select **Add structure (2)**, and choose **grouping by (3)** salesperson and country to generate the analysis view.
+9. Click the **prompt guide icon (1)** then select **Add structure (2)**, and choose **Group by (salesperson then country) (3)** to generate the analysis view.
 
     ![](./media/e4s15.png)
 
@@ -139,7 +122,7 @@ In this exercise, you will use Copilot to analyze purchase order data directly f
 
     ![](./media/e4s19.png)
 
-## Exercise 5: Autofill Purchase Order Fields with Copilot
+## Exercise 4: Autofill Purchase Order Fields with Copilot
 
 In this exercise, you will experience how Copilot assists in
 automatically filling in fields while creating a purchase order,reducing manual data entry.
@@ -152,13 +135,13 @@ automatically filling in fields while creating a purchase order,reducing manual 
 
     ![](./media/e5s3.png)
 
-3. Click turn off the analysis mode and click on **+ New** to create a new purchase order.
+3. Click on **Enter Analysis Mode** and then **+ New** to create a new purchase order.
 
     ![](./media/e5s4.png)
 
     ![](./media/e5s4(2).png)
 
-4. In the **Vendor Name** field, open the dropdown list and select **Graphic Design Institute (1)** and click **Show more (2)** to see futher details
+4. In the **Vendor Name** field, open the dropdown list, select **Graphic Design Institute (1)** and click **Show more (2)** to see more details.
 
    ![](./media/e5s7.png)
 
@@ -168,11 +151,11 @@ automatically filling in fields while creating a purchase order,reducing manual 
 
 6. Review the auto-generated values in the purchase order and click Keep all to accept and apply the suggested changes..
 
-    ![](./media/e5s11.png)
+    ![](./media/ds6.png)
 
 7. The purchase order fields are intelligently populated with Copilot assistance.
 
-## Exercise 6: Chat with Copilot
+## Exercise 5: Chat with Copilot
 
 In this exercise, you will interact with Copilot using natural language to retrieve insights and navigate business data.
 
@@ -186,7 +169,7 @@ In this exercise, you will interact with Copilot using natural language to retri
 
     ![](./media/e6s4.png)
 
-5. Review the list of purchase orders suggested by Copilot and Select the first purchase order from the list to explore further.
+5. Review the list of purchase orders suggested by Copilot and select the first purchase order from the list to explore further.
 
     ![](./media/e6s6.png)
 
@@ -194,11 +177,11 @@ In this exercise, you will interact with Copilot using natural language to retri
 
     ![](./media/e6s7.png)
 
-8. At the bottom of the Copilot window, click **View prompts (1)**, select **Find (2)**, and choose **looking up a purchase invoice (3)**.
+8. At the bottom of the Copilot window, click **View prompts (1)**, select **Find (2)**, and choose **Look up purchase invoice [number] (3)**.
 
     ![](./media/e6s10.png)
 
-1. Enter **Vendor number 30000 (1)** after look up and click **Execute (2)**.
+1. Enter **Vendor number 30000 (1)** after `Look up` and click **Execute (2)**.
 
     ![](./media/e6s12.png)
 
@@ -210,6 +193,6 @@ In this exercise, you will interact with Copilot using natural language to retri
 
     ![](./media/e6s14.png)
 
-## Lab Completion
+## Conclusion
 
 You have successfully completed this lab. You now understand how Copilot can accelerate purchase order review, analysis, and data entry in Dynamics 365 Business Central, enabling faster and more informed business decisions.
