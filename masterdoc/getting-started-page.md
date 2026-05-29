@@ -1,4 +1,4 @@
-# Supercharge SMB business operations with AI and agents in Dynamics 365 Business Central - Day 01
+# Supercharge SMB business operations with AI and agents in Dynamics 365 Business Central
 
 ## Getting Started with the lab
 
